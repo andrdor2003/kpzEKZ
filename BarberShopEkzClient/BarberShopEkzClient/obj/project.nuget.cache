@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "XKEZgiwr8PldG64cYzR0BCVsLmkthpp+mSAa6PloBPj55EOu41ecnboQXbrUASh+Qy7zHAzjZZ3WFYvtfLSoPg==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\38098\\OneDrive\\Робочий стіл\\5 семестр\\кпз\\kpz_ekz\\BarberShopEkzClient\\BarberShopEkzClient\\BarberShopEkzClient.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\38098\\.nuget\\packages\\newtonsoft.json\\13.0.2\\newtonsoft.json.13.0.2.nupkg.sha512"
+  ],
+  "logs": []
+}

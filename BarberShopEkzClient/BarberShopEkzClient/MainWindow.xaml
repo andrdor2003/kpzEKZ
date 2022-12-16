@@ -1,0 +1,35 @@
+﻿<Window x:Class="BarberShopEkzClient.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:BarberShopEkzClient"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition></ColumnDefinition>
+            <ColumnDefinition></ColumnDefinition>
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="350"></RowDefinition>
+            <RowDefinition></RowDefinition>
+        </Grid.RowDefinitions>
+        <DataGrid Grid.Column="0" Name="dataGrid1" RowEditEnding="dataGrid1_RowEditEnding">
+
+        </DataGrid>
+
+        <DataGrid Grid.Column="1" Name="dataGrid2" RowEditEnding="dataGrid2_RowEditEnding">
+
+        </DataGrid>
+        <StackPanel VerticalAlignment="Center" Grid.Column="0" Grid.Row="1">
+            <Button Content="Update Customer" Click="GetCustomerButton"></Button>
+            <Button Content="Delete Customer" Click="DeleteVetCardButton"></Button>
+        </StackPanel>
+        <StackPanel VerticalAlignment="Center" Grid.Column="1" Grid.Row="1">
+            <Button Grid.Column="1" Grid.Row="1" Content="Update Appointments" Click="GetAppointmentsButton"></Button>
+            <Button Content="Delete Appointment" Click="DeleteAppointmentButton"></Button>
+        </StackPanel>
+
+    </Grid>
+</Window>
